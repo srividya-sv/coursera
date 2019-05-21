@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2019-05-14T20:43:42" hostname="Ashwins-iMac.local" time="0.01">
+  <properties/>
+  <testcase name="testEmptyModel" classname="org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest" time="0.004"/>
+  <testcase name="testTwoItemVector" classname="org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest" time="0.003">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;2&gt;&#10;     but: was &lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;2&gt;
+     but: was &lt;0&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest.testTwoItemVector(WeightedUserProfileBuilderTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:377)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="testSingleItemVector" classname="org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest" time="0.003">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;1&gt;&#10;     but: was &lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;1&gt;
+     but: was &lt;0&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at org.lenskit.mooc.cbf.WeightedUserProfileBuilderTest.testSingleItemVector(WeightedUserProfileBuilderTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:377)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[13:43:42.246 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.246 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[user] from EntityType[item-tag] (column TypedName[user: long])
+13:43:42.246 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.246 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 3 entities with type EntityType[item] and 2 indexes
+13:43:42.246 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 4 entities with type EntityType[item-tag] and 2 indexes
+13:43:42.246 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 0 entities with type EntityType[user] and 2 indexes
+13:43:42.246 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Building TF-IDF model
+13:43:42.246 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Computed TF vectors for 3 items
+13:43:42.249 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.249 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[user] from EntityType[item-tag] (column TypedName[user: long])
+13:43:42.249 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.249 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 3 entities with type EntityType[item] and 2 indexes
+13:43:42.249 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 4 entities with type EntityType[item-tag] and 2 indexes
+13:43:42.249 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 0 entities with type EntityType[user] and 2 indexes
+13:43:42.249 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Building TF-IDF model
+13:43:42.249 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Computed TF vectors for 3 items
+13:43:42.252 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.252 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[user] from EntityType[item-tag] (column TypedName[user: long])
+13:43:42.252 [Test worker] INFO  o.l.data.dao.file.StaticDataSource - deriving entity type EntityType[item] from EntityType[item-tag] (column TypedName[item: long])
+13:43:42.252 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 3 entities with type EntityType[item] and 2 indexes
+13:43:42.252 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 4 entities with type EntityType[item-tag] and 2 indexes
+13:43:42.252 [Test worker] DEBUG o.l.d.e.EntityCollectionBuilder - built collection of 0 entities with type EntityType[user] and 2 indexes
+13:43:42.253 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Building TF-IDF model
+13:43:42.253 [Test worker] INFO  o.l.mooc.cbf.TFIDFModelProvider - Computed TF vectors for 3 items
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
